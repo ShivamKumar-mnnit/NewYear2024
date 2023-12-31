@@ -1,0 +1,125 @@
+#text{
+    /* font-family: Abel, sans-serif; */
+    /* background: #F6F8F9; */
+    background: radial-gradient(circle farthest-corner at center center, #ffffff 0%, #bb0404 30%, #D7DEE3 60%, #F5F7F9 100%);
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent;
+    font-size: 100px;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.6em;
+    letter-spacing: -1.7px; */
+
+}
+
+.text-center{
+    justify-content: center;
+}
+
+.card{
+    width: 15rem;
+    /* height: 13rem; */
+}
+
+.glass{
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blue(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+#counterHeading{
+    background: #112ACF;
+background: radial-gradient(ellipse farthest-corner at top left, #112ACF 0%, #35E9FC 50%, #13CF13 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.counterText{
+    font-size: 20px;
+    font-weight: bolder;
+    background: #1F13CF;
+background: radial-gradient(ellipse farthest-corner at top left, #1F13CF 13%, #FC28D2 46%, #0A17CF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+
+/* General styles */
+
+/* Your existing styles here */
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    #text {
+      font-size: 50px;
+      line-height: 1.3em;
+    }
+  
+    .counterText {
+      font-size: 16px;
+    }
+  }
+
+  /* Your existing styles here */
+
+/* Media query for the text inside #text */
+@media only screen and (max-width: 1440px) {
+  #text {
+    font-size: 50px;
+    line-height: 1.2em;
+    /* Adjust other properties as needed */
+  }
+}
+@media only screen and (max-width: 880px) {
+  #text {
+    font-size: 45px;
+    line-height: 1.2em;
+    /* Adjust other properties as needed */
+  }
+}
+@media only screen and (max-width: 780px) {
+  #text {
+    font-size: 40px;
+    line-height: 1.2em;
+    /* Adjust other properties as needed */
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  #text {
+    font-size: 35px;
+    line-height: 1.1em;
+    /* Adjust other properties for smaller screens */
+  }
+}
+@media only screen and (max-width: 580px) {
+  #text {
+    font-size: 30px;
+    line-height: 1.1em;
+    /* Adjust other properties for smaller screens */
+  }
+}
+@media only screen and (max-width: 480px) {
+  #text {
+    font-size: 25px;
+    line-height: 1.1em;
+    /* Adjust other properties for smaller screens */
+  }
+}
+
+  
